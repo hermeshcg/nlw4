@@ -11,5 +11,5 @@ app.get('/', (request, response) => {
 });
 
 app.post('/', (request, response) => {
-  return response.json({ message: 'Os dados foram recebidos com sucesso' });
+  return response.json({ message: 'Isso aq é um teste' });
 });
